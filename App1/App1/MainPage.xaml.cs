@@ -9,9 +9,11 @@ namespace App1
         {
             InitializeComponent();
         }
-        private void Button_clicked(object sender, EventArgs e)
+        private void Button_clicked(object sender, EventArgs e) 
         {
             Label1.Text = Entry1.Text;
+
+
         }
     }
 }
